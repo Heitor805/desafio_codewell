@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background-color: gray;
+}
+body {
+    background-color: black;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    color: white;
+}
+p {
+    color: lightgray;
+}
+section {
+    text-align: center;
+}
