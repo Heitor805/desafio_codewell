@@ -21,14 +21,14 @@ p {
 }
 section {
     text-align: center;
-    background-color: azure;
+    background-color: black;
     padding: 10px;
 }
 div#um {
-    width: 100%;
     padding: 10px;
 }
 .classe {
-    padding: 5px;
-    border: 1px solid black;
+    height: 30px;
+    width: 13%;
+    padding: 20px;
 }
