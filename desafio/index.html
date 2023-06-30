@@ -8,29 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <section class="logo"><a href="index.html">Johnathan Specter</a></section>
-        <section class="nav">
-            <nav>
-                <a href="nothing.html">Articles</a>
-                <a href="nothing.html">Chats</a>
-                <a href="nothing.html">Awards</a>
-                <a href="nothing.html">About</a>
-            </nav>
+    <section class="pagina">
+        <header>
+            <div class="nav-header">
+                <h1><a href="index.html" class="logo">Johnathan Specter</a></h1>
+                <nav class="nav">
+                    <a href="nothing.html">Articles</a>
+                    <a href="nothing.html">Chats</a>
+                    <a href="nothing.html">Awards</a>
+                    <a href="nothing.html">About</a>
+                </nav>
+                <input type="button" value="Get in Touch" class="botao" onclick="clicar()" id="click">
+            </div>
+        </header>
+        <h1>Helping companies build better, scalable software.</h1>
+        <p>Award-winning web developer and author, with over 15+ years f working experience Fortune 500 companies like Apple, Google, Facebook, and more.</p>
+        <section class="parceiros">
+            <div id="um">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/Walmart.svg" alt="walmart logo" class="classe">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/JP Morgan.svg" alt="walmart logo" class="classe">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/Visa.svg" alt="walmart logo" class="classe">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/Tinder.svg" alt="walmart logo" class="classe">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/Samsung.svg" alt="walmart logo" class="classe">
+            <img src="../Developer Portfolio Starter Files/Assets/Logos/Verizon.svg" alt="walmart logo" class="classe">
+            </div>
         </section>
-        <section class="button"><input type="button" value="Get in Touch"></section>
-    </header>
-    <h1>Helping companies build better, scalable software.</h1>
-    <p>Award-winning web developer and author, with over 15+ years f working experience Fortune 500 companies like Apple, Google, Facebook, and more.</p>
-    <section>
-        <div id="um">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/Walmart.svg" alt="walmart logo" class="classe">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/JP Morgan.svg" alt="walmart logo" class="classe">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/Visa.svg" alt="walmart logo" class="classe">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/Tinder.svg" alt="walmart logo" class="classe">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/Samsung.svg" alt="walmart logo" class="classe">
-        <img src="../Developer Portfolio Starter Files/Assets/Logos/Verizon.svg" alt="walmart logo" class="classe">
-        </div>
     </section>
+    <script>
+        clicar() {
+            var cli = window.document.getElementById("click")
+            document.innerHTML = "<a href="nothing.html"></a>"
+        }
+    </script>
 </body>
 </html>

@@ -19,7 +19,41 @@ h1 {
 p {
     color: lightgray;
 }
-section {
+section.pagina {
+    margin: 40px;
+    margin-top: 0px;
+}
+.nav-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+a.logo {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+a.logo:hover {
+    color: rgb(173, 173, 0);
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(173, 173, 0);
+}
+.botao {
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: rgb(173, 173, 0);
+}
+section.parceiros {
     text-align: center;
     background-color: black;
     padding: 10px;
