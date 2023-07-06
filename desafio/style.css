@@ -40,7 +40,7 @@ a.logo {
     text-align: left;
 }
 a.logo:hover {
-    color: rgb(173, 173, 0);
+    color: rgb(255, 255, 93);
 }
 nav a {
     text-decoration: none;
@@ -49,16 +49,16 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-    color: rgb(173, 173, 0);
+    color: rgb(255, 255, 93);
 }
 .botao {
     padding: 15px;
     border-radius: 8px;
     font-weight: bold;
-    background-color: rgb(173, 173, 0);
+    background-color: rgb(255, 255, 93);
 }
 .botao:hover {
-    background-color: rgb(201, 201, 0);
+    background-color: rgb(230, 230, 93);
     font-size: 1.01em;
     transition: 0.4s;
 }
@@ -67,19 +67,31 @@ a {
     color: black;
 }
 .title {
-    width: 650px;
+    width: 60%;
+    min-width: 650px;
     text-align: left;
     min-height: 250px;
 }
 .title h1 {
     font-size: 3.5em;
+    line-height: 61px;
+    margin-bottom: 8px;
+}
+.title p {
+    width: 58%;
+    min-width: 550px;
+    line-height: 24px;
 }
 section.parceiros {
     text-align: center;
     background-color: black;
 }
+.parceiros {
+    margin-bottom: 100px
+}
 .classe {
     height: 30px;
     width: 13%;
     padding: 20px;
+    margin-bottom: 50px;
 }
