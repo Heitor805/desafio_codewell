@@ -20,9 +20,6 @@ p {
     color: lightgray;
     font-size: 1.2em;
 }
-section.pagina {
-    margin-top: 0px;
-}
 .nav-header {
     display: flex;
     align-content: center;
@@ -68,7 +65,7 @@ a {
     width: 50%;
     min-width: 650px;
     text-align: left;
-    min-height: 250px;
+    min-height: 350px;
 }
 .title h1 {
     font-size: 4em;
@@ -113,21 +110,81 @@ section.parceiros {
 .asset p {
     line-height: 25px;
 }
-.text {
+.area {
     background-color: #2e3038;
+}
+.text {
+    padding: 60px;
+    margin: auto;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    min-height: 280px;
 }
 .text1 {
     width: 47%;
     text-align: left;
-    padding-bottom: 90px;
-    padding: 30px
 }
 .text1 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
-.text p {
-
+.ultimo {
+    min-height: 280px;
+    padding: 60px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.textultimo {
+    margin: auto;
+    width: 47%;
+    text-align: left;
+    line-height: 30px;
+}
+.textultimo h1{
+    font-size: 2.5em;
+    padding-bottom: 20px;    
+}
+.textultimo p{
+    line-height: 25px;
+}
+.botao2 {
+    text-align: center;
+    width: 110px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #fbe850;
+}
+.botao2:hover {
+    background-color: #fcec78;
+    font-size: 1.01em;
+    transition: 0.2s;
+}
+.area2 {
+    background-color: #2e3038;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+.footer a {
+    margin: auto 0px;
+}
+.footer h1 {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 1.2em;
+}
+.footer h1:hover {
+    color: #fbe850;
+}
+.icons {
+    padding-left: 10px;
 }
