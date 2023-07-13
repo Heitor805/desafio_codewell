@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desadio Codewell Portfólio Challenge</title>
+    <title>Desafio Codewell Portfólio Challenge</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
 </head>
@@ -20,6 +20,18 @@
                     <a href="nothing.html">About</a>
                 </nav>
                 <a href="nothing.html"><section class="botao">Get in Touch!</section></a>
+                <img src="../Developer Portfolio Starter Files/Assets/Hamburger Menu.svg" alt="menu" class="burguer" onclick="abrir()">
+                <section class="open">
+                    <i id=""></i>
+                    <menu id="itens">
+                        <ul>
+                            <li><a href="nothing.html">Articles</a></li>
+                            <li><a href="nothing.html">Chats</a></li>
+                            <li><a href="nothing.html">Awards</a></li>
+                            <li><a href="nothing.html">About</a></li>
+                        </ul>
+                    </menu>
+                </section>
             </div>
         </header>
         <section class="title">
@@ -80,5 +92,14 @@
             </section>
         </section>
     </section>
+    <script>
+        function abrir() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
