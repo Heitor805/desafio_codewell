@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 .width {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 h1 {
@@ -26,7 +26,7 @@ p {
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 a.logo {
     padding: 10px;
@@ -62,50 +62,40 @@ a {
     color: black;
 }
 .title {
-    width: 50%;
-    min-width: 650px;
     text-align: left;
-    min-height: 350px;
+    padding-bottom: 75px;
 }
 .title h1 {
-    font-size: 4em;
-    line-height: 61px;
+    font-size: 2.7em;
+    line-height: 53px;
     margin-bottom: 8px;
 }
 .title p {
-    width: 58%;
-    min-width: 550px;
     line-height: 24px;
 }
-section.parceiros {
-    text-align: center;
-    background-color: black;
-}
 .parceiros {
-    margin-bottom: 100px
+    background-color: #15181a;
+    margin-bottom: 50px;
 }
 .classe {
+    background-color: #15181a;
     height: 30px;
-    width: 13%;
-    padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    width: 40%;
 }
 .imagens {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 .asset {
-    width: 47%;
     text-align: left;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
 }
 .asset img {
     width: 100%;
 }
 .asset h1 {
     font-size: 2.7em;
-    line-height: 88px;
+    line-height: 75px;
 }
 .asset p {
     line-height: 25px;
@@ -114,37 +104,34 @@ section.parceiros {
     background-color: #2e3038;
 }
 .text {
-    padding: 60px;
+    padding: 60px 0px;
     margin: auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 90%;
     min-height: 280px;
 }
 .text1 {
-    width: 47%;
     text-align: left;
+}
+.text2 {
+    text-align: left;
+    padding-top: 40px;
 }
 .text1 h1 {
     font-size: 2.5em;
 }
 .ultimo {
-    min-height: 280px;
-    padding: 60px;
+    padding: 60px 0px;
     margin: auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 90%;
 }
 .textultimo {
     margin: auto;
-    width: 47%;
     text-align: left;
-    line-height: 30px;
 }
 .textultimo h1{
+    line-height: 47px;
     font-size: 2.5em;
-    padding-bottom: 20px;    
+    padding-bottom: 10px;   
 }
 .textultimo p{
     line-height: 25px;
@@ -152,7 +139,7 @@ section.parceiros {
 .botao2 {
     text-align: center;
     width: 110px;
-    padding: 15px;
+    padding: 18px;
     border-radius: 8px;
     font-weight: bold;
     background-color: #fbe850;

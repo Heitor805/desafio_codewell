@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #15181a;
+        text-align: center;
+        margin: auto;
+    }
+    .width {
+        width: 90%;
+        margin: auto;
+    }
+    h1 {
+        color: white;
+    }
+    p {
+        color: lightgray;
+        font-size: 1.2em;
+    }
+    .nav-header {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    a.logo {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+    }
+    a.logo:hover {
+        color: #fbe850;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+        color: #fbe850;
+    }
+    .botao {
+        padding: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: #fbe850;
+    }
+    .botao:hover {
+        background-color: #fcec78;
+        font-size: 1.01em;
+        transition: 0.2s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .title {
+        text-align: left;
+        padding-bottom: 75px;
+    }
+    .title h1 {
+        font-size: 2.7em;
+        line-height: 53px;
+        margin-bottom: 8px;
+    }
+    .title p {
+        line-height: 24px;
+    }
+    .parceiros {
+        background-color: #15181a;
+        margin-bottom: 50px;
+    }
+    .classe {
+        background-color: #15181a;
+        height: 30px;
+        margin-bottom: 25px;
+        width: 30%;
+    }
+    .imagens {
+        width: 100%;
+    }
+    .asset {
+        text-align: left;
+        padding-bottom: 70px;
+    }
+    .asset img {
+        width: 100%;
+    }
+    .asset h1 {
+        font-size: 2.7em;
+        line-height: 75px;
+    }
+    .asset p {
+        line-height: 25px;
+    }
+    .area {
+        background-color: #2e3038;
+    }
+    .text {
+        padding: 60px 0px;
+        margin: auto;
+        width: 90%;
+        min-height: 280px;
+    }
+    .text1 {
+        text-align: left;
+    }
+    .text2 {
+        text-align: left;
+        padding-top: 40px;
+    }
+    .text1 h1 {
+        font-size: 2.5em;
+    }
+    .ultimo {
+        padding: 60px 0px;
+        margin: auto;
+        width: 90%;
+    }
+    .textultimo {
+        margin: auto;
+        text-align: left;
+    }
+    .textultimo h1{
+        line-height: 47px;
+        font-size: 2.5em;
+        padding-bottom: 10px;   
+    }
+    .textultimo p{
+        line-height: 25px;
+    }
+    .botao2 {
+        text-align: center;
+        width: 110px;
+        padding: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: #fbe850;
+    }
+    .botao2:hover {
+        background-color: #fcec78;
+        font-size: 1.01em;
+        transition: 0.2s;
+    }
+    .area2 {
+        background-color: #2e3038;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+    }
+    .footer a {
+        margin: auto 0px;
+    }
+    .footer h1 {
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        font-size: 1.2em;
+    }
+    .footer h1:hover {
+        color: #fbe850;
+    }
+    .icons {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #15181a;
+        text-align: center;
+        margin: auto;
+    }
+    .width {
+        width: 80%;
+        margin: auto;
+    }
+    h1 {
+        color: white;
+    }
+    p {
+        color: lightgray;
+        font-size: 1.2em;
+    }
+    .nav-header {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    a.logo {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+    }
+    a.logo:hover {
+        color: #fbe850;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+        color: #fbe850;
+    }
+    .botao {
+        padding: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: #fbe850;
+    }
+    .botao:hover {
+        background-color: #fcec78;
+        font-size: 1.01em;
+        transition: 0.2s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .title {
+        width: 50%;
+        min-width: 650px;
+        text-align: left;
+        min-height: 350px;
+    }
+    .title h1 {
+        font-size: 4em;
+        line-height: 61px;
+        margin-bottom: 8px;
+    }
+    .title p {
+        width: 58%;
+        min-width: 550px;
+        line-height: 24px;
+    }
+    section.parceiros {
+        text-align: center;
+        background-color: black;
+    }
+    .parceiros {
+        margin-bottom: 100px
+    }
+    .classe {
+        height: 30px;
+        width: 13%;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    .imagens {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .asset {
+        width: 47%;
+        text-align: left;
+        padding-bottom: 90px;
+    }
+    .asset img {
+        width: 100%;
+    }
+    .asset h1 {
+        font-size: 2.7em;
+        line-height: 88px;
+    }
+    .asset p {
+        line-height: 25px;
+    }
+    .area {
+        background-color: #2e3038;
+    }
+    .text {
+        padding: 60px;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        min-height: 280px;
+    }
+    .text1 {
+        width: 47%;
+        text-align: left;
+    }
+    .text1 h1 {
+        font-size: 2.5em;
+    }
+    .ultimo {
+        min-height: 280px;
+        padding: 60px;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .textultimo {
+        margin: auto;
+        width: 47%;
+        text-align: left;
+        line-height: 30px;
+    }
+    .textultimo h1{
+        font-size: 2.5em;
+        padding-bottom: 20px;    
+    }
+    .textultimo p{
+        line-height: 25px;
+    }
+    .botao2 {
+        text-align: center;
+        width: 110px;
+        padding: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: #fbe850;
+    }
+    .botao2:hover {
+        background-color: #fcec78;
+        font-size: 1.01em;
+        transition: 0.2s;
+    }
+    .area2 {
+        background-color: #2e3038;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+    }
+    .footer a {
+        margin: auto 0px;
+    }
+    .footer h1 {
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        font-size: 1.2em;
+    }
+    .footer h1:hover {
+        color: #fbe850;
+    }
+    .icons {
+        padding-left: 10px;
+    }
+}
